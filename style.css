@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 html{
     font-size: 62.5%;
+}
+
+.clear{
+    clear: both;
 }
 
 .box1,
@@ -27,9 +33,50 @@ html{
 }
 
 .box3{
-    width: 100%;
+    width: 98.7%;
 }
 
-.clear{
-    clear: both;
+
+
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+a{
+    color: black;
+    font-size: 2.4rem;
+    color: white;
+}
+
+h3{
+    font-size:2.8rem;
+}
+
+button{
+    font-size: 1.8rem;
+}
+
+nav{
+    background: rgb(59, 76, 93);
+    color: white;
+    padding: 3rem;
+}
+
+nav h1{
+    float: left;
+}
+nav ul{
+    float: right;
+}
+
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.hero-section{
+    
 }

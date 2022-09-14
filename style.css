@@ -77,6 +77,23 @@ nav li{
     margin: 0rem 4rem;
 }
 
-.hero-section{
-    
+.hero{
+    background-image: url("/pexels-pixabay-461428.jpg");
+    height: 80rem;
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-left: 40rem;
+    padding-top: 20rem;
+    text-shadow: 3px 3px 10px black;
+}
+
+.hero button{
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(33, 104, 174);
+    border: none;
+    color: white;
+    cursor: pointer;
 }
